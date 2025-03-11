@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Simba Energy Drink | Unleash Your Power</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.159.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.159.0/examples/jsm/"
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="loader-container">
+        <div class="loader">
+            <div class="loader-text">LOADING</div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="intro-animation" id="intro-container">
+        <canvas id="intro-canvas"></canvas>
+        
+        <div class="intro-overlay">
+            <div class="logo-container">
+                <h1 class="brand-name">BLACK SIMBA</h1>
+                <p class="tagline">UNLEASH YOUR POWER</p>
+            </div>
+            <div class="cta-container">
+                <button class="enter-btn">ENTER SITE</button>
+                <div class="age-verification">
+                    <span>18+ RECOMMENDED</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content hidden">
+        <header>
+            <nav>
+                <div class="logo">BLACK SIMBA</div>
+                <ul>
+                    <li><a href="./products.html" class="nav-link" data-page="products">PRODUCTS</a></li>
+                    <li><a href="./about.html" class="nav-link" data-page="about">ABOUT</a></li>
+                    <li><a href="./energy.html" class="nav-link" data-page="energy">ENERGY</a></li>
+                    <li><a href="./store.html" class="nav-link" data-page="store">STORE</a></li>
+                    <li><a href="./contact.html" class="nav-link" data-page="contact">CONTACT</a></li>
+                </ul>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </header>
