@@ -265,3 +265,48 @@ button {
     z-index: 101;
     pointer-events: none;
 }
+
+.logo-container {
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInDown 1s ease forwards;
+    animation-delay: 3s;
+}
+
+.brand-name {
+    font-size: 5rem;
+    font-weight: 900;
+    text-shadow: 0 0 15px var(--glow-color);
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.tagline {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    color: var(--text-muted);
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 4s;
+}
+
+.enter-btn {
+    background: var(--primary-color);
+    color: var(--dark-bg);
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 20px var(--gold-glow);
+    pointer-events: auto;
+    position: relative;
+    overflow: hidden;
+}
